@@ -25,7 +25,7 @@ struct DisplayView: View {
         Spacer()
         Group {
 
-            VStack(alignment: .leading, spacing: rowSpace) {
+            VStack(alignment: .trailing, spacing: rowSpace) {
                 Spacer()    // allow top spacer - moving line1 to bottom
                 
                 // DisplayLine4 - right aligned while vertical scrolling
