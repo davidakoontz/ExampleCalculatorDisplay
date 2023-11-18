@@ -11,6 +11,8 @@
 		639E0C0A2B06DAE900091168 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E0C092B06DAE900091168 /* ContentView.swift */; };
 		639E0C0C2B06DAEB00091168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639E0C0B2B06DAEB00091168 /* Assets.xcassets */; };
 		639E0C0F2B06DAEB00091168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639E0C0E2B06DAEB00091168 /* Preview Assets.xcassets */; };
+		639E0C162B06E18600091168 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E0C152B06E18600091168 /* DisplayView.swift */; };
+		639E0C182B06E24A00091168 /* EnvironmentGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E0C172B06E24A00091168 /* EnvironmentGlobal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		639E0C092B06DAE900091168 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		639E0C0B2B06DAEB00091168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639E0C0E2B06DAEB00091168 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		639E0C152B06E18600091168 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		639E0C172B06E24A00091168 /* EnvironmentGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentGlobal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				639E0C072B06DAE900091168 /* ExampleCalculatorDisplayApp.swift */,
 				639E0C092B06DAE900091168 /* ContentView.swift */,
+				639E0C152B06E18600091168 /* DisplayView.swift */,
+				639E0C172B06E24A00091168 /* EnvironmentGlobal.swift */,
 				639E0C0B2B06DAEB00091168 /* Assets.xcassets */,
 				639E0C0D2B06DAEB00091168 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639E0C182B06E24A00091168 /* EnvironmentGlobal.swift in Sources */,
+				639E0C162B06E18600091168 /* DisplayView.swift in Sources */,
 				639E0C0A2B06DAE900091168 /* ContentView.swift in Sources */,
 				639E0C082B06DAE900091168 /* ExampleCalculatorDisplayApp.swift in Sources */,
 			);
