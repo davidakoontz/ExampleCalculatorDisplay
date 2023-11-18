@@ -16,3 +16,7 @@ The general display is made of 4 lines inside a VStack() e.g.:
                     .foregroundColor(.pink)
                 }   // scrollView
                 .scrollIndicators(.automatic, axes: [.horizontal])
+
+
+For details about Alignment Guides in SwiftUI see:
+https://swiftui-lab.com/alignment-guides/
