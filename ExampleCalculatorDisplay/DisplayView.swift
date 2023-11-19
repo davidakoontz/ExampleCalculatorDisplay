@@ -22,6 +22,11 @@ struct DisplayView: View {
         
         let displayWidth = screenWidth - (2*outerPadding)
         
+        /*
+         Desired Display 4 independently horiz scrolling text / or numbers / equations.
+         All lines are right (.trailing) adjusted.
+         */
+        
         Spacer()
         Group {
 
